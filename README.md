@@ -1,4 +1,4 @@
-# SnapEats - Multimodal Nutrition Label Analyzer
+# SnapEats - AI Nutrition Label Analyzer
 
 **Google AI Hackathon Finalist | Top 25 of 898 submissions (15,498 total participants)**
 
@@ -6,27 +6,30 @@
 
 ## What It Does
 
-SnapEats lets users snap a photo of any nutrition label or ingredient list and get an instant, plain-language breakdown of what's in their food. The app categorizes ingredients as beneficial, concerning, or potentially harmful, and provides personalized dietary analysis based on user preferences.
+SnapEats turns your phone camera into a nutrition translator. Point it at any food package, snap a photo of the nutrition label or ingredient list, and the app reads the label and breaks down ingredients and nutrition facts into plain language. No more deciphering chemical names or confusing percentages.
 
-The problem is simple: most people can't quickly interpret complex nutrition labels. SnapEats removes that friction with a camera tap.
+The app categorizes ingredients as beneficial, concerning, or potentially harmful, and provides personalized dietary analysis based on user preferences.
 
 ## How It Works
 
 ```
-Photo of nutrition label
+Phone camera pointed at food package
+    |
+    v
+[Snap photo of nutrition label]
     |
     v
 [Gemini Vision API]
-    - OCR extraction of label text
-    - Ingredient identification and classification
-    - Nutritional analysis against user dietary profile
+    - Reads label directly from the image
+    - Identifies and classifies every ingredient
+    - Analyzes nutrition against user dietary profile
     |
     v
-[Personalized Summary]
+[Plain-Language Breakdown]
     - Beneficial ingredients (green)
     - Concerning ingredients (yellow)
     - Potentially harmful ingredients (red)
-    - Plain-language explanation
+    - Personalized dietary recommendations
 ```
 
 ## Tech Stack
