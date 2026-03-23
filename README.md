@@ -2,7 +2,7 @@
 
 **Google AI Hackathon Finalist | Top 25 of 898 submissions (15,498 total participants)**
 
-**Live Demo:** [snapeats.flutterflow.app](https://snapeats.flutterflow.app) | **Devpost:** [devpost.com/software/snapeats](https://devpost.com/software/snapeats)
+**Live Demo:** [snapeats.flutterflow.app](https://snapeats.flutterflow.app) | **Demo Video:** [YouTube](https://www.youtube.com/watch?v=vUXIyA2wPX8) | **Devpost:** [devpost.com/software/snapeats](https://devpost.com/software/snapeats)
 
 ## What It Does
 
